@@ -1,0 +1,4 @@
+*.zip
+*.cache/
+*.runs/
+*.gen/
