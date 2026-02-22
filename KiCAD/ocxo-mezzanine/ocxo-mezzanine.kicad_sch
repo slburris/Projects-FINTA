@@ -6720,7 +6720,7 @@
 			)
 		)
 		(property "Value" "ISO_+6V"
-			(at 111.76 92.7099 90)
+			(at 119.38 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)

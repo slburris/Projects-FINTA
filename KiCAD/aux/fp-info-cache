@@ -1,4 +1,4 @@
-27500032406009967
+27537226048886210
 ! Advanced Photonix
 PHODET_PDV-P8103
 
@@ -27,6 +27,13 @@ DDPAK-5_Q
 0
 6
 6
+! Analog Devices
+LTC3115EFE-1_TRPBF
+
+
+0
+21
+21
 ! Analog Devices
 SOP65P640X110-17N
 
@@ -66,6 +73,20 @@ BCIHP10SC
 0ZCG_BEL
 
 0ZCG0300FF2B 
+0
+2
+2
+! Bel Fuse
+FUSRB1020W81L2490T310H3000B
+3amp 90v PTC
+
+0
+2
+2
+! Bourns
+INDPM7366X500N
+SRP7050TA-100M
+Inductor
 0
 2
 2
@@ -202,6 +223,27 @@ Transformer
 0
 6
 6
+! Coilcraft
+HP6-0090L
+
+
+0
+12
+12
+! Coilcraft
+HPH11400LD
+HPH1-1400LD-1
+Transformer
+0
+12
+12
+! Cvilux USA
+CONN_CU01SAH0S00_CVI
+
+CU01SAH0S00 
+0
+4
+4
 ! DFRobot
 DFR1172
 
@@ -224,6 +266,13 @@ BZX84C3V6S-7-F
 6
 6
 ! Diodes Incorporated
+SOT65P280X110-8N
+SOT28
+Integrated Circuit
+0
+8
+8
+! Diodes Incorporated
 SOT95P280X82-6N
 TSOT26 (Type A1)
 Integrated Circuit
@@ -243,6 +292,13 @@ SOT23-ren6
 Integrated Circuit
 0
 3
+3
+! Diodes Incorporated
+SOT223-STD-DMN6068_DIO
+
+DMN6068SE-13 
+0
+4
 3
 ! Eaton
 DRQ127
@@ -328,6 +384,13 @@ Transistor
 0
 3
 3
+! Infineon
+TRANS_IRLML6344TRPBF
+
+
+0
+3
+3
 ! Kyocera
 XTAL_KC2016K18.4320C10E00_KAV
 
@@ -339,6 +402,20 @@ KC2016K18.4320C10E00
 16R800GF
 
 
+0
+2
+2
+! Littlefuse
+FUSE_RUEF500_LTF
+
+RUEF500 
+0
+2
+2
+! Littlefuse
+FUS_RUEF250_TYCO_TYC
+
+RUEF250 
 0
 2
 2
@@ -525,6 +602,13 @@ CAPRR2250W80L2530T1170H1640
 2
 2
 ! Phoenix Contact
+CONN_1758050
+
+1758050 
+0
+6
+6
+! Phoenix Contact
 CONN_1803455
 
 1803455 
@@ -644,6 +728,13 @@ connector JST SH horizontal
 12
 11
 ! Scott
+Adafruit Ultimate GPS Breakout v3
+
+
+0
+20
+10
+! Scott
 BMP280_Breakout
 
 
@@ -692,6 +783,13 @@ Through hole angled pin header THT 2x06 2.54mm double row
 0
 12
 12
+! Scott
+RCB-F9T-0
+
+
+0
+12
+8
 ! Scott
 SM04B-SRSS-TB_LFSN_
 Grove Horizontal Socket
@@ -889,6 +987,13 @@ IC_TPS27S100BPWPR
 21
 21
 ! Texas Instruments
+KTT0005B
+
+LM2596S-5.0 
+0
+6
+6
+! Texas Instruments
 M08A
 
 LM4871MX/NOPB 
@@ -938,12 +1043,33 @@ TLC6C5816QPWPRQ1
 50
 30
 ! Texas Instruments
+SOP50P490X110-10N
+DGS0010A 2021
+Integrated Circuit
+0
+10
+10
+! Texas Instruments
 SOP65P490X110-9N
 S-PDSO-G8
 Switch
 0
 9
 9
+! Texas Instruments
+SOP65P640X110-21N
+
+
+0
+21
+21
+! Texas Instruments
+SOP65P640X120-14N
+
+
+0
+14
+14
 ! Texas Instruments
 SOT5X3-8_DRL_TEX
 
@@ -993,6 +1119,13 @@ Integrated Circuit
 0
 8
 8
+! Vishay
+PowerPAK_SO-8L-2_DUAL_VIS
+
+SQJ746ELP-T1_GE3 
+0
+6
+6
 ! Vishay
 SOIC127P600X175-8N
 SO8
@@ -108933,3 +109066,17 @@ Varistor VF
 0
 2
 2
+local
+flybuck
+
+
+0
+5
+5
+local
+lownoise-LDO
+
+
+0
+4
+4

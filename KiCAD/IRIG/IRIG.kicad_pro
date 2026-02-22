@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -100,13 +100,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -243,7 +243,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2298700|825500|0caf076d-47d0-43ee-a2f2-fcd0551ee87e|baa7336b-2671-48ea-ae61-71df1a7e54d3|/c1f04d9b-5a6c-49a2-9759-60021a4bfe24|/c1f04d9b-5a6c-49a2-9759-60021a4bfe24|/c1f04d9b-5a6c-49a2-9759-60021a4bfe24",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -468,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "aux.kicad_pro",
+    "filename": "IRIG.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -492,16 +497,9 @@
         "wire_width": 6
       },
       {
-        "name": "Isolated Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 0, 255)",
-        "wire_width": 12
-      },
-      {
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 12
       }
@@ -511,190 +509,28 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+11VA": [
-        "Power"
-      ],
       "+12V": [
         "Power"
       ],
-      "+5VA": [
-        "Power"
-      ],
-      "+6V": [
-        "Power"
-      ],
-      "+6V isolated": [
-        "Power"
-      ],
-      "+8VA": [
-        "Power"
-      ],
-      "/+5V Display": [
-        "Power"
-      ],
-      "/5v-LDO #1/IN": [
-        "Power"
-      ],
-      "/Distribution/Analog GND": [
-        "Isolated Power"
-      ],
-      "/Distribution/Analog PWR": [
-        "Isolated Power"
-      ],
-      "/IRIG/+11V IN": [
-        "Power"
-      ],
-      "/IRIG/+5V IN": [
-        "Power"
-      ],
-      "/connectors/Kria 3.3V": [
-        "Power"
-      ],
-      "/connectors/Kria 5V": [
-        "Power"
-      ],
-      "/ocxo/+6V Analog": [
-        "Isolated Power"
-      ],
-      "/ocxo/+6V Oven": [
-        "Isolated Power"
-      ],
-      "/ocxo/GND Analog": [
-        "Isolated Power"
-      ],
-      "/ocxo/GND Oven": [
-        "Isolated Power"
-      ],
-      "/power_connectors/+12Vin": [
-        "Power"
-      ],
-      "/power_connectors/+5Vin": [
-        "Power"
-      ],
-      "/power_input/+12V": [
+      "+3.3VA": [
         "Power"
       ],
       "GND": [
         "Power"
       ],
-      "GND2": [
+      "Net-(C5-Pad1)": [
         "Power"
       ],
-      "GND3": [
+      "Net-(U1-EN)": [
         "Power"
       ],
-      "GNDA": [
+      "Net-(U2-SW)": [
         "Power"
       ],
-      "ISO_+6V": [
+      "Net-(U3-VIN)": [
         "Power"
       ],
-      "ISO_+8V": [
-        "Power"
-      ],
-      "ISO_GND6": [
-        "Power"
-      ],
-      "ISO_GND8": [
-        "Power"
-      ],
-      "Net-(C53-Pad1)": [
-        "Power"
-      ],
-      "Net-(D1-K)": [
-        "Power"
-      ],
-      "Net-(D10-A)": [
-        "Power"
-      ],
-      "Net-(D11-A)": [
-        "Power"
-      ],
-      "Net-(D14-A2)": [
-        "Power"
-      ],
-      "Net-(D2-A2)": [
-        "Power"
-      ],
-      "Net-(D2-K)": [
-        "Power"
-      ],
-      "Net-(D3-A)": [
-        "Power"
-      ],
-      "Net-(D4-A2)": [
-        "Power"
-      ],
-      "Net-(D5-K)": [
-        "Power"
-      ],
-      "Net-(D6-A)": [
-        "Power"
-      ],
-      "Net-(D6-K)": [
-        "Power"
-      ],
-      "Net-(D7-A)": [
-        "Power"
-      ],
-      "Net-(D8-K)": [
-        "Isolated Power"
-      ],
-      "Net-(D9-K)": [
-        "Power"
-      ],
-      "Net-(IC2-OUT)": [
-        "Power"
-      ],
-      "Net-(J10-Pin_1)": [
-        "Power"
-      ],
-      "Net-(J17-Pin_2)": [
-        "Power"
-      ],
-      "Net-(MOD1-►VIN)": [
-        "Power"
-      ],
-      "Net-(U10-EN)": [
-        "Power"
-      ],
-      "Net-(U10-SW)": [
-        "Power"
-      ],
-      "Net-(U11-EN)": [
-        "Power"
-      ],
-      "Net-(U11-VIN)": [
-        "Power"
-      ],
-      "Net-(U12-EN{slash}UV)": [
-        "Power"
-      ],
-      "Net-(U12-VIN)": [
-        "Power"
-      ],
-      "Net-(U13-VIN)": [
-        "Power"
-      ],
-      "Net-(U14-SW)": [
-        "Power"
-      ],
-      "Net-(U14-VIN)": [
-        "Power"
-      ],
-      "Net-(U15-SW)": [
-        "Power"
-      ],
-      "Net-(U16-EN)": [
-        "Power"
-      ],
-      "Net-(U16-SW)": [
-        "Power"
-      ],
-      "Net-(U19-SW)": [
-        "Power"
-      ],
-      "Net-(U2-OUT)": [
+      "VDDA": [
         "Power"
       ]
     },
@@ -778,204 +614,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey_Part_Number",
-          "name": "DigiKey_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "HEIGHT",
-          "name": "HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_NAME",
-          "name": "MANUFACTURER_NAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER_PART_NUMBER",
-          "name": "MOUSER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER_PRICE-STOCK",
-          "name": "MOUSER_PRICE-STOCK",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OC_FARNELL",
-          "name": "OC_FARNELL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OC_NEWARK",
-          "name": "OC_NEWARK",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIER",
-          "name": "SUPPLIER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1008,7 +652,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "/home/scott/Downloads/",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1021,48 +665,8 @@
   },
   "sheets": [
     [
-      "6a5500d3-d468-43ac-ab22-fee662977e86",
+      "c1f04d9b-5a6c-49a2-9759-60021a4bfe24",
       "Root"
-    ],
-    [
-      "1ffc8ac1-2e74-421b-96bc-a9af52d3647c",
-      "power_connectors"
-    ],
-    [
-      "dc66cb67-0aac-4bd9-98fe-132f83899816",
-      "connectors"
-    ],
-    [
-      "c1218c7e-2adf-4479-83fe-caf796408443",
-      "Buffer1"
-    ],
-    [
-      "9438c2c9-758a-4165-a94c-48d6195209ec",
-      "power"
-    ],
-    [
-      "38cac13f-c1b8-4fc4-b8b7-0c24b51b3220",
-      "Buffer2"
-    ],
-    [
-      "9b5781bd-e689-4125-b129-6ed5cad90174",
-      "ocxo"
-    ],
-    [
-      "4491be2b-1bb0-4a38-b781-b828ef1f1049",
-      "Buffer3"
-    ],
-    [
-      "c9c48aff-6a33-4623-a67f-e240bb515c9f",
-      "Distribution"
-    ],
-    [
-      "1d09f2cc-5165-4bc2-af5b-432dd13f74b5",
-      "Buffer4"
-    ],
-    [
-      "63adcc47-7cd8-4ee8-aec1-ab52b2d9ec26",
-      "IRIG"
     ]
   ],
   "text_variables": {}

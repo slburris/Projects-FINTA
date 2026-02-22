@@ -1,4 +1,4 @@
-27523054664145272
+27533684000049657
 ! Advanced Photonix
 PHODET_PDV-P8103
 
@@ -384,6 +384,13 @@ Transistor
 0
 3
 3
+! Infineon
+TRANS_IRLML6344TRPBF
+
+
+0
+3
+3
 ! Kyocera
 XTAL_KC2016K18.4320C10E00_KAV
 
@@ -402,6 +409,13 @@ KC2016K18.4320C10E00
 FUSE_RUEF500_LTF
 
 RUEF500 
+0
+2
+2
+! Littlefuse
+FUS_RUEF250_TYCO_TYC
+
+RUEF250 
 0
 2
 2
@@ -588,6 +602,13 @@ CAPRR2250W80L2530T1170H1640
 2
 2
 ! Phoenix Contact
+CONN_1758050
+
+1758050 
+0
+6
+6
+! Phoenix Contact
 CONN_1803455
 
 1803455 
@@ -707,6 +728,13 @@ connector JST SH horizontal
 12
 11
 ! Scott
+Adafruit Ultimate GPS Breakout v3
+
+
+0
+11
+10
+! Scott
 BMP280_Breakout
 
 
@@ -755,6 +783,13 @@ Through hole angled pin header THT 2x06 2.54mm double row
 0
 12
 12
+! Scott
+RCB-F9T-0
+
+
+0
+12
+8
 ! Scott
 SM04B-SRSS-TB_LFSN_
 Grove Horizontal Socket
@@ -1028,6 +1063,13 @@ SOP65P640X110-21N
 0
 21
 21
+! Texas Instruments
+SOP65P640X120-14N
+
+
+0
+14
+14
 ! Texas Instruments
 SOT5X3-8_DRL_TEX
 
