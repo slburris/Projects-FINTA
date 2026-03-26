@@ -60,7 +60,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|53083946|101513315|bd6ca2a1-dcf9-449b-94ce-a3b1953427f2|eb0047d4-78e1-47d7-9866-4c5a31552b96",
+          ""
+        ],
+        [
+          "courtyards_overlap|54470723|49835000|af6d85c4-146a-4b42-8060-9ca6387c4c84|eb0047d4-78e1-47d7-9866-4c5a31552b96",
+          ""
+        ],
+        [
+          "courtyards_overlap|84875000|79370000|3c7a786f-9dd9-430f-b862-ff50c2981299|f3fffcf5-181a-4cdb-84ec-a7ed1cac3ddd",
+          ""
+        ],
+        [
+          "silk_overlap|78485000|82682000|2405368e-0c62-45f2-bcd2-85bb50194f66|e4601953-1261-45c0-a115-34caaedc3d1f",
+          ""
+        ],
+        [
+          "silk_overlap|84595000|79755000|664e714d-dcb6-46f5-bf88-dbc32ed09dc2|ef179bb3-abf4-4ed6-80cd-fb1e3d0e7fb1",
+          ""
+        ],
+        [
+          "silk_overlap|84595000|79755000|a05cc27d-f870-4535-be5c-f158063a8bdb|ef179bb3-abf4-4ed6-80cd-fb1e3d0e7fb1",
+          ""
+        ],
+        [
+          "silk_overlap|84690000|81865000|85219b33-fa9e-4f14-ad64-c2069e647532|ef179bb3-abf4-4ed6-80cd-fb1e3d0e7fb1",
+          ""
+        ],
+        [
+          "silk_overlap|86705000|80232094|0c54887b-653f-454c-9620-9e99c3eb5c2c|41a161c1-a4a6-4014-96e4-599b109a915e",
+          ""
+        ],
+        [
+          "silk_overlap|86719580|79708285|41a161c1-a4a6-4014-96e4-599b109a915e|5eca3d7b-46a5-466c-9bc4-2f99c0db9250",
+          ""
+        ],
+        [
+          "starved_thermal|54031320|88931320|0b739575-30cc-41bc-8efe-0dbcfb383b85|6482da15-6d6a-4ef6-b67d-2054a056e5a1|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -258,7 +299,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|4394200|2057400|0ada0499-a183-45e6-88c8-5e18a9ad3a92|ae738fe4-eb56-4146-ac65-b932e25fa15b|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86",
+        ""
+      ],
+      [
+        "pin_to_pin|4394200|2082800|ae738fe4-eb56-4146-ac65-b932e25fa15b|a455f93a-4205-4f10-8de0-c0e8517d7d16|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86",
+        ""
+      ],
+      [
+        "pin_to_pin|469900|1638300|b9180475-bf68-4f4e-8ed1-214cd0f39234|8c0f4cf7-875e-474a-a398-28f14e38656f|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86",
+        ""
+      ],
+      [
+        "pin_to_pin|469900|1663700|d1e4e7b5-1bd1-4dc5-a543-2ac1c41276f8|e5a95b2e-5a5d-4815-91df-8e88fd928639|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86",
+        ""
+      ],
+      [
+        "pin_to_pin|469900|1765300|78f8812c-f7c6-47e3-b6e0-db1816020fd2|2e064315-7c5f-4eac-b363-631dfba8d440|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86|/6a5500d3-d468-43ac-ab22-fee662977e86",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -996,6 +1058,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
           "show": false
         }
       ],

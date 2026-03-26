@@ -7553,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "910"
 			(at 358.14 93.9799 0)
 			(effects
 				(font

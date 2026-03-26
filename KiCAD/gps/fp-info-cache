@@ -1,4 +1,4 @@
-27537226422853285
+27650654424383347
 ! Advanced Photonix
 PHODET_PDV-P8103
 
@@ -189,12 +189,26 @@ CUI_PJ-037A
 2
 2
 ! CUI Devices
+CUI_PJ-044A
+
+
+0
+3
+3
+! CUI Devices
 CUI_PJ-060A
 
 
 0
 3
 3
+! CUI Devices
+CUI_UJ20-C-V-C-2-SMT-TR
+
+
+0
+80
+80
 ! CUI Devices
 MSD1A
 MSD-1-A-1
@@ -728,6 +742,13 @@ connector JST SH horizontal
 12
 11
 ! Scott
+ATA016A0X3Z
+
+
+0
+11
+11
+! Scott
 Adafruit Ultimate GPS Breakout v3
 
 
@@ -825,6 +846,13 @@ USB_Micro_B
 0
 9
 6
+! Scott
+Untitled
+
+
+0
+11
+11
 ! Scott
 XIinix JTAG
 
@@ -1022,6 +1050,13 @@ TLC6C598QPWRQ1
 16
 16
 ! Texas Instruments
+PWP0014F_N
+
+TPS1H100AQPWPRQ1 
+0
+21
+16
+! Texas Instruments
 PWP0028C_L
 
 TLC6C5816QPWPRQ1 
@@ -1147,8 +1182,22 @@ K7803M-1000R3
 0
 3
 3
+! Waveshare
+XCVR_ESP32-P4_MODULE
+
+
+0
+88
+88
 ! Würth Elektronik
 696108003002
+
+
+0
+2
+2
+! Würth Elektronik
+WE-CBF_2220_H3.6
 
 
 0

@@ -1,0 +1,13 @@
+Resolved in 1.1
+
+Q2 is hidden on silkscreen after transistor is installed
+
+
+Unresolved
+
+Raspberry pi header is rotated 180 degrees
+Display connector is wrong type, should be from the PH series
+fix fuse holder to use the one I actually have
+Adafruit GPS pinout silkscreen not visible after module is mounted, should also
+have at least some test pins for testing
+J10 (USB A connector) should have plated through holes for the two mounting pins
