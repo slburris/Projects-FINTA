@@ -1,0 +1,9 @@
+FIxed in 1.1
+Footprint for the hexa-path is wrong!
+R7, the 25K resistor for RT/SYNC is not even an E96 resistor.  Exact value is not critical, so change to 24K
+Maybe look at pulling other weird values into at least E96 if not E24
+Work to remove 0402 replace with 0603 at a minimum size
+added back holes for chips with thermal pads
+
+Not fixed
+

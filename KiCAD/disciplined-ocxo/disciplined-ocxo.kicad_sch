@@ -1678,7 +1678,7 @@
 			(uuid "bc8708a0-72a3-467f-84a2-340cd776493e")
 		)
 		(instances
-			(project ""
+			(project "disciplined-ocxo"
 				(path "/524acfd4-1e59-49e3-978a-af1b55d132a7"
 					(reference "D1")
 					(unit 1)
@@ -1811,7 +1811,7 @@
 			(uuid "d952c6a3-476e-4f47-b565-839add944124")
 		)
 		(instances
-			(project ""
+			(project "disciplined-ocxo"
 				(path "/524acfd4-1e59-49e3-978a-af1b55d132a7"
 					(reference "#PWR01")
 					(unit 1)
@@ -1910,7 +1910,7 @@
 			(uuid "f25cbf74-7637-476a-be4e-64602d2fb241")
 		)
 		(instances
-			(project ""
+			(project "disciplined-ocxo"
 				(path "/524acfd4-1e59-49e3-978a-af1b55d132a7"
 					(reference "J1")
 					(unit 1)

@@ -4455,7 +4455,7 @@
 			(uuid "6a6539c7-f974-4c6e-a0b1-b47597d30c39")
 		)
 		(instances
-			(project ""
+			(project "disciplined-ocxo"
 				(path "/524acfd4-1e59-49e3-978a-af1b55d132a7/7a309988-a716-492a-a677-a9466c78084a"
 					(reference "#PWR05")
 					(unit 1)
