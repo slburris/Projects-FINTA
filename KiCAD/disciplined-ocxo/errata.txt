@@ -4,6 +4,8 @@ R7, the 25K resistor for RT/SYNC is not even an E96 resistor.  Exact value is no
 Maybe look at pulling other weird values into at least E96 if not E24
 Work to remove 0402 replace with 0603 at a minimum size
 added back holes for chips with thermal pads
+added fiducials
+standardize on 0603 for 0.1uf bypass caps
 
 Not fixed
 
