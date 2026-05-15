@@ -3,7 +3,7 @@
 C4,0603,1,4.7uf,
 D1,LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm,1,LED,
 FB1,1206,1,BLM31PG601,
-J1,PinHeader_1x04_P2.00mm_Horizontal,1,Conn_01x04_Pin,
+J2,PinHeader_1x05_P2.00mm_Horizontal,1,Conn_01x05_Pin,
 R1,0603,1,Rfbtop,
 R2,0603,1,Ruvtop,
 R3,0603,1,Rfbbot,
